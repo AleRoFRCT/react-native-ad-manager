@@ -1,4 +1,4 @@
-import type { IAdManagerTemplateImage } from './AdManagerTypes';
+import { IAdManagerTemplateImage } from './AdManagerTypes';
 
 export interface IAdManagerEventBase {
   target?: number;

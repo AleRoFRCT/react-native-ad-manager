@@ -7,14 +7,14 @@ import {
   NativeSyntheticEvent,
 } from 'react-native';
 import { createErrorFromErrorData } from './utils';
-import type {
+import {
   IAdManagerEventBase,
   IAdManagerEventError,
   IAdManagerEventAppEvent,
   IAdManagerEventLoadedBanner,
   IAdManagerEventSize,
 } from './AdManagerEvent';
-import type { IAdManagerTargeting } from './AdManagerTypes';
+import { IAdManagerTargeting } from './AdManagerTypes';
 import { LINKING_ERROR } from './Constants';
 
 interface IAdManagerAdaptiveBannerPropsBase extends ViewProps {

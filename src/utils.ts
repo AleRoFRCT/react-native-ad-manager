@@ -1,4 +1,4 @@
-import type { IAdManagerEventErrorPayload } from './AdManagerEvent';
+import { IAdManagerEventErrorPayload } from './AdManagerEvent';
 
 export const createErrorFromErrorData = (
   errorData: IAdManagerEventErrorPayload

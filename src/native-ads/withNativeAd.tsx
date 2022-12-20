@@ -8,11 +8,11 @@ import {
 } from 'react-native';
 import { TriggerableContext } from './TriggerableViewManager';
 import { NativeAdsManager } from './NativeAdsManager';
-import type {
+import {
   IAdManagerTargeting,
   TReactNodeHandleRef,
 } from '../AdManagerTypes';
-import type {
+import {
   IAdManagerEventBase,
   IAdManagerEventCustomClick,
   IAdManagerEventAppEvent,
