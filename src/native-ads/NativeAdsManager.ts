@@ -1,5 +1,5 @@
 import { NativeModules } from 'react-native';
-import type { TReactNodeHandleRef } from '../AdManagerTypes';
+import { TReactNodeHandleRef } from '../AdManagerTypes';
 
 const { CTKAdManageNativeManager } = NativeModules;
 

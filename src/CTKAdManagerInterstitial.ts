@@ -1,12 +1,12 @@
 import { NativeEventEmitter, NativeModules } from 'react-native';
 import { createErrorFromErrorData } from './utils';
-import type {
+import {
   IAdManagerEventBase,
   IAdManagerEventErrorPayload,
   IAdManagerEventLoadedInterstitial,
 } from './AdManagerEvent';
 import { LINKING_ERROR } from './Constants';
-import type { IAdManagerTargeting } from './AdManagerTypes';
+import { IAdManagerTargeting } from './AdManagerTypes';
 
 const CTKInterstitial = NativeModules.CTKInterstitial
   ? NativeModules.CTKInterstitial

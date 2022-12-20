@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, ViewProps } from 'react-native';
-import type { TReactNodeHandleRef } from '../AdManagerTypes';
+import { TReactNodeHandleRef } from '../AdManagerTypes';
 
 interface ITriggerableContext {
   register: (child: TReactNodeHandleRef) => void;
